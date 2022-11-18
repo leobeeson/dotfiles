@@ -1,0 +1,69 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+alt+d",
+    "command": "editor.debug.action.selectionToRepl"
+  },
+  {
+    "key": "ctrl+oem_6",
+    "command": "workbench.action.toggleEditorVisibility",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+oem_6",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "jupyter.interactive.clearAllCells"
+  },
+  {
+    "key": "ctrl+i ctrl+6",
+    "command": "jupyter.restartkernel"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+oem_7",
+    "command": "workbench.debug.action.focusRepl"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.debug.action.showDebugHover",
+    "when": "editorTextFocus && inDebugMode"
+  },
+  {
+    "key": "ctrl+k ctrl+i",
+    "command": "-editor.debug.action.showDebugHover",
+    "when": "editorTextFocus && inDebugMode"
+  },
+  {
+    "key": "ctrl+shift+alt+oem_7",
+    "command": "markdown.extension.editing.toggleHeadingDown",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+oem_4",
+    "command": "-markdown.extension.editing.toggleHeadingDown",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+oem_7",
+    "command": "markdown.extension.editing.toggleHeadingUp",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+oem_6",
+    "command": "-markdown.extension.editing.toggleHeadingUp",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  }
+]

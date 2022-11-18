@@ -1,0 +1,35 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+d",
+        "command": "editor.debug.action.selectionToRepl"
+    },
+    {
+        "key": "ctrl+oem_6",
+        "command": "workbench.action.toggleEditorVisibility",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+oem_6",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "jupyter.interactive.clearAllCells"
+    },
+    {
+        "key": "ctrl+i ctrl+6",
+        "command": "jupyter.restartkernel"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    }    
+]

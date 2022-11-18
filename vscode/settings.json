@@ -1,0 +1,243 @@
+{
+    "pasteImage.path": "${projectRoot}/img/${currentFileNameWithoutExt}",
+    "pasteImage.basePath": "${projectRoot}/img",
+    "pasteImage.forceUnixStyleSeparator": true,
+    "pasteImage.prefix": "/img/",
+    "pasteImage.showFilePathConfirmInputBox": true,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "editor.stickyScroll.enabled": true,
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "tag",
+        "foreground": "red",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "blue"
+    },
+    "todo-tree.general.tags": [
+        "TODO",
+        "WIP",
+        "REFACTOR",
+        "TEST",
+        "FIXME",
+        "FOCUS",
+        "DONE",
+        "NOW",
+        "NEXT",
+        "SOON",
+        "SOMEDAY",
+        "REQ",
+        "COMM",
+        "DOUBT",
+        "ASSUMPTION",
+        "USER_ACTION",
+        "SYSTEM_ACTION",
+        "TYPE:READ",
+        "TYPE:DESIGN"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "alert",
+            "type": "tag",
+            "foreground": "SteelBlue",
+            "background": "Yellow",
+            "opacity": 50,
+            "iconColour": "yellow"
+        },
+        "WIP": {
+          "icon": "alert",
+          "type": "tag",
+          "foreground": "Yellow",
+          "background": "SteelBlue",
+          "opacity": 50,
+          "iconColour": "SteelBlue"
+        },
+        "REFACTOR": {
+            "icon": "tools",
+            "type": "tag",
+            "foreground": "DarkGreen",
+            "background": "PaleGreen",
+            "opacity": 50,
+            "iconColour": "SpringGreen"
+        },
+        "TEST": {
+            "icon": "beaker",
+            "type": "tag",
+            "foreground": "DarkRed",
+            "background": "Coral",
+            "opacity": 50,
+            "iconColour": "Coral"
+        },
+        "FIXME": {
+            "icon": "bug",
+            "type": "text",
+            "foreground": "white",
+            "background": "#FA28FF",
+            "opacity": 50,
+            "iconColour": "red"
+        },
+        "FOCUS": {
+            "icon": "eye",
+            "type": "tag",
+            "foreground": "MediumBlue",
+            "background": "DeepSkyBlue",
+            "opacity": 50,
+            "iconColour": "DeepSkyBlue"  
+        },
+        "DONE": {
+          "icon": "check-circle-fill",
+          "type": "tag",
+          "foreground": "Green",
+          "background": "SpringGreen",
+          "opacity": 50,
+          "iconColour": "Lime"  
+        },
+        "NOW": {
+          "icon": "alert",
+          "type": "tag",
+          "foreground": "SteelBlue",
+          "background": "Yellow",
+          "opacity": 50,
+          "iconColour": "yellow"
+        },
+        "NEXT": {
+          "icon": "alert",
+          "type": "tag",
+          "foreground": "#949398FF",
+          "background": "#F4DF4EFF",
+          "opacity": 50,
+          "iconColour": "#F4DF4EFF"
+        },
+        "SOON": {
+          "icon": "alert",
+          "type": "tag",
+          "foreground": "#00203FFF",
+          "background": "#ADEFD1FF",
+          "opacity": 50,
+          "iconColour": "#ADEFD1FF"
+        },
+        "SOMEDAY": {
+          "icon": "alert",
+          "type": "tag",
+          "foreground": "#B1624EFF",
+          "background": "#5CC8D7FF",
+          "opacity": 50,
+          "iconColour": "#5CC8D7FF"
+        },
+        "REQ": {
+            "icon": "megaphone",
+            "type": "tag",
+            "foreground": "Indigo",
+            "background": "MediumPurple",
+            "opacity": 50,
+            "iconColour": "BlueViolet"  
+        },
+        "COMM": {
+            "icon": "megaphone",
+            "type": "tag",
+            "foreground": "Indigo",
+            "background": "MediumPurple",
+            "opacity": 50,
+            "iconColour": "BlueViolet"  
+        },
+        "DOUBT": {
+            "icon": "question",
+            "type": "tag",
+            "foreground": "#ffeb3b",
+            "background": "#b80000",
+            "opacity": 50,
+            "iconColour": "#b80000"  
+        },
+        "ASSUMPTION": {
+            "icon": "question",
+            "type": "tag",
+            "foreground": "#ffeb3b",
+            "background": "#b80000",
+            "opacity": 50,
+            "iconColour": "#b80000"  
+        },
+        "USER_ACTION": {
+          "icon": "tools",
+          "type": "tag",
+          "foreground": "MediumBlue",
+          "background": "DeepSkyBlue",
+          "opacity": 50,
+          "iconColour": "DeepSkyBlue"  
+        },
+        "SYSTEM_ACTION": {
+          "icon": "tools",
+          "type": "tag",
+          "foreground": "DarkGreen",
+          "background": "PaleGreen",
+          "opacity": 50,
+          "iconColour": "SpringGreen"
+        },
+        "TYPE:READ": {
+            "icon": "alert",
+            "type": "tag",
+            "foreground": "Yellow",
+            "background": "SteelBlue",
+            "opacity": 50,
+            "iconColour": "SteelBlue"
+        },
+        "TYPE:DESIGN": {
+            "icon": "alert",
+            "type": "tag",
+            "foreground": "Yellow",
+            "background": "DeepSkyBlue",
+            "opacity": 50,
+            "iconColour": "DeepSkyBlue"
+        }
+    },
+    "todo-tree.tree.buttons.groupByTag": true,
+    "typescript.tsserver.maxTsServerMemory": 8000,
+    "cSpell.language": "en-GB",
+    "cSpell.userWords": [
+      "Bazel",
+      "Beeson",
+      "behavior",
+      "Collibra",
+      "conda",
+      "expressivity",
+      "flashtext",
+      "Jeavons",
+      "kwargs",
+      "LMDP",
+      "Lotka",
+      "Memgraph",
+      "Minnett",
+      "namecalling",
+      "Pandoc",
+      "Pedophile’s",
+      "productionisation",
+      "ptvsd",
+      "pytest",
+      "pytest's",
+      "Robux",
+      "Runbook",
+      "Rustlings",
+      "Rustonomicon",
+      "sexploited",
+      "sextortion",
+      "Sexwords",
+      "SKOS",
+      "Standups",
+      "stopwords",
+      "Udemy",
+      "unigram",
+      "unigrammar",
+      "Unigrammer",
+      "unigrams",
+      "Vbux",
+      "vide",
+      "vocab",
+      "Vocabs",
+      "Volterra",
+      "Yeap"
+    ],
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "workbench.startupEditor": "none",
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "jupyter.askForKernelRestart": false,
+}

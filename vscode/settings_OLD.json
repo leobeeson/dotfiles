@@ -1,0 +1,234 @@
+{
+    "julia.enableTelemetry": true,
+    "julia.executablePath": "/home/fbe/Programs/julia-1.6.2/bin/julia",
+    "julia.enableCrashReporter": true,
+    "julia.execution.codeInREPL": true,
+    "julia.execution.resultType": "both",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "python.testing.pytestEnabled": false,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.iconTheme": "ayu",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "python.pythonPath": "C:\\anaconda3\\python.exe",
+    "python.formatting.provider": "black",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask"
+    ],
+    "editor.formatOnSave": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "pgsql.connections": [
+        {
+            "host": "nonprod-sharktank-ip.db.sharktank.internal",
+            "dbname": "sharktank",
+            "user": "fbeeson",
+            "password": "",
+            "emptyPasswordInput": false,
+            "port": "5432",
+            "profileName": "Sharktank"
+        }
+    ],
+    "python.dataScience.askForKernelRestart": false,
+    "python.dataScience.textOutputLimit": 200000,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.git": false,
+        "**/.project": true,
+        "**/.settings": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "[julia]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+        "editor.wordSeparators": "`~#$%^&*()-=+[{]}\\|;:'\",.<>/?"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.pdf": "default"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\Francis Beeson\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "notebook.output.textLineLimit": 500,
+    "jupyter.interactiveWindowMode": "single",
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "jupyter.askForKernelRestart": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "tag",
+        "foreground": "red",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "blue"
+    },
+    "todo-tree.general.tags": [
+        "TODO",
+        "REFACTOR",
+        "TEST",
+        "FIXME",
+        "FOCUS",
+        "DONE",
+        "REQ",
+        "DOUBT"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "alert",
+            "type": "tag",
+            "foreground": "SteelBlue",
+            "background": "Yellow",
+            "opacity": 50,
+            "iconColour": "yellow"
+        },
+        "DONE": {
+            "icon": "check-circle-fill",
+            "type": "tag",
+            "foreground": "Green",
+            "background": "SpringGreen",
+            "opacity": 50,
+            "iconColour": "Lime"  
+        },
+        "REFACTOR": {
+            "icon": "tools",
+            "type": "tag",
+            "foreground": "DarkGreen",
+            "background": "PaleGreen",
+            "opacity": 50,
+            "iconColour": "SpringGreen"
+        },
+        "TEST": {
+            "icon": "beaker",
+            "type": "tag",
+            "foreground": "DarkRed",
+            "background": "Coral",
+            "opacity": 50,
+            "iconColour": "Coral"
+        },
+        "FIXME": {
+            "icon": "bug",
+            "type": "text",
+            "foreground": "white",
+            "background": "Crimson",
+            "opacity": 50,
+            "iconColour": "red"
+        },
+        "FOCUS": {
+            "icon": "eye",
+            "type": "tag",
+            "foreground": "MediumBlue",
+            "background": "DeepSkyBlue",
+            "opacity": 0,
+            "iconColour": "DeepSkyBlue"  
+        },
+        "REQ": {
+            "icon": "megaphone",
+            "type": "text",
+            "foreground": "Indigo",
+            "background": "MediumPurple",
+            "opacity": 50,
+            "iconColour": "BlueViolet"  
+        },
+        "DOUBT": {
+            "icon": "question",
+            "type": "tag",
+            "foreground": "Crimson",
+            "background": "LightSlateGray",
+            "opacity": 50,
+            "iconColour": "LightSlateGray"  
+        }
+    },
+    "todo-tree.tree.buttons.groupByTag": true,
+    "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-v>": false
+    },
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editor.enablePreview": false,
+    "aws.profile": "profile:default",
+    "julia.symbolCacheDownload": true,
+    "json.schemas": [],
+    "editor.fontFamily": "'CaskaydiaCove NF', 'Courier New', monospace",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "workbench.startupEditor": "none",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorCustomizations": {
+    "editor.findMatchBackground": "#FF5733", //Current SEARCH MATCH
+    "editor.findMatchHighlightBackground": "#FF00FF" //Other SEARCH MATCHES
+    },
+    "cSpell.userWords": [
+        "anonymization",
+        "compactify",
+        "cooccurrences",
+        "crosstab",
+        "crossterm",
+        "deblacklisted",
+        "deserialised",
+        "detokenise",
+        "gensim",
+        "lemmatization",
+        "ndarray",
+        "neighbourhood",
+        "neighbourhoods",
+        "ngram",
+        "ngrams",
+        "nltk",
+        "npmi",
+        "Productionization",
+        "Serialise",
+        "serialised",
+        "spacy",
+        "stopwords",
+        "thiserror",
+        "tokenise",
+        "tokenised",
+        "twitchrealtimehandler",
+        "unencrypted",
+        "unigrams",
+        "unredacted",
+        "uvicorn",
+        "vectorise",
+        "vectorised"
+    ],
+    "remote.SSH.remotePlatform": {
+        "aws-devbox-0": "linux",
+        "aws-devbox-0-fbe": "linux"
+    },
+    "[markdown]": {
+      "editor.unicodeHighlight.ambiguousCharacters": false,
+      "editor.unicodeHighlight.invisibleCharacters": false,
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+      },
+      "cSpell.fixSpellingWithRenameProvider": true,
+      "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+      "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+      "editor.tabSize": 2,
+      "editor.detectIndentation": false
+    }
+}
